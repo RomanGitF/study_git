@@ -12,6 +12,5 @@ void helloS(const std::string &name) {
 int main()
 {
     hello();
-    helloS("Roma");
 
 }
