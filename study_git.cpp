@@ -10,12 +10,18 @@ void helloS(const std::string &name) {
 }
 
 void bye() {
-    std::cout << "Bye - bye" << std::endl;
+    std::cout << "Bye-bye!" << std::endl;
+}
+
+void byeS(const std::string& name) {
+    std::cout << "Bue-bye, " << name << "!" << std::endl;
 }
 
 int main()
 {
     hello();
+    helloS("Anna");
     bye();
+    byeS("Anna");
 
 }
